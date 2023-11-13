@@ -1,5 +1,3 @@
-import sys
-
 from termcolor import colored, cprint
 from about import about_descr
 from commands import variables_and_data_types, command_list
