@@ -1,6 +1,8 @@
 from termcolor import colored, cprint
 from about import about_descr
-from commands import variables_and_data_types, command_list
+from commands import command_list
+
+from parts.topics import variables_and_data_types, string_and_string_methods
 
 
 cprint('Вас вітає Python у консолі.\nПишіть "help", щоб отримати список команд.\nОпис методів викликається '
@@ -16,6 +18,9 @@ i = 0
 help__commands = []
 
 for key in variables_and_data_types:
+    help__commands.append(key)
+
+for key in string_and_string_methods:
     help__commands.append(key)
 # END-------------------------------
 
