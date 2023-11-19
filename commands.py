@@ -1,4 +1,4 @@
-from parts.topics import variables_and_data_types, string_and_string_methods
+from topics import variables_and_data_types, string_and_string_methods
 
 
 def command_list(user_command):

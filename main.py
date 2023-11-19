@@ -2,7 +2,7 @@ from termcolor import colored, cprint
 from about import about_descr
 from commands import command_list
 
-from parts.topics import variables_and_data_types, string_and_string_methods
+from topics import variables_and_data_types, string_and_string_methods
 
 
 cprint('Вас вітає Python у консолі.\nПишіть "help", щоб отримати список команд.\nОпис методів викликається '
